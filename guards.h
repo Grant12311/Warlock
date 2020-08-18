@@ -3,8 +3,6 @@
 
 #include <iostream>
 
-#include <EGL/egl.h>
-
 #ifndef WARLOCK_DISABLE_EGLCALL
     #define eglCall(x) x; ASSERT(Warlock::eglLogError(#x, __FILE__, __LINE__));
 #else
