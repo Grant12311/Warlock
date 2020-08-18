@@ -2,5 +2,6 @@
 #define WARLOCK_H
 
 #include "guards.h"
+#include "context.h"
 
 #endif
